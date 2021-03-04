@@ -1,0 +1,26 @@
+[Unit]
+Description=tecsacoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=tecsacoin
+Group=tecsacoin
+
+Type=forking
+PIDFile=/var/lib/tecsacoind/tecsacoind.pid
+
+ExecStart=/usr/bin/tecsacoind -daemon -pid=/var/lib/tecsacoind/tecsacoind.pid \
+          -conf=/etc/tecsacoin/tecsacoin.conf -datadir=/var/lib/tecsacoind
+
+ExecStop=-/usr/bin/tecsacoin-cli -conf=/etc/tecsacoin/tecsacoin.conf \
+         -datadir=/var/lib/tecsacoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

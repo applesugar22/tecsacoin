@@ -1,0 +1,26 @@
+# /etc/conf.d/tecsacoind: config file for /etc/init.d/tecsacoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/tecsacoin/tecsacoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/tecsacoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/tecsacoind.pid"
+
+# Where to write tecsacoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/tecsacoind"
+
+# User and group to own tecsacoind process
+#BITCOIND_USER="tecsacoin"
+#BITCOIND_GROUP="tecsacoin"
+
+# Path to tecsacoind executable
+#BITCOIND_BIN="/usr/bin/tecsacoind"
+
+# Nice value to run tecsacoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
