@@ -7,19 +7,25 @@
 tecsacoin is a Blockchain using the highly-secure and power-efficient NIST5 algorithm. Combining limited Proof-of-Work, the tecsacoin coin (tecsacoin) is unique in its distribution. 
 
 <a name="specifications"></a>
+
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/fL9VxTH9/bitcoin.png' border='0' alt='bitcoin'/></a>
+
+
+
 ## Technical Specifications
 <table>
-<tr> <td>Ticker</td><td>tecsacoin</td></tr>
+<tr> <td>Name</td><td>Tecsacoin</td></tr>
 <tr> <td>Algorithm</td><td>NIST5/SHA-256</td></tr>
 <tr> <td>Consensus</td><td>Proof-of-Work</td></tr>
-<tr> <td>Maximum Supply</td><td>21,000,000* </td></tr>
+<tr> <td>Maximum Supply</td><td>250,000,000  </td></tr>
 <tr> <td>Block Time</td><td>64 Seconds</td></tr>
+<tr> <td>Block Reward</td><td>2</td></tr>
 <tr> <td>Block Size</td><td>10 MB</td></tr>
 <tr> <td>Transactions Per Second</td><td>~800</td></tr>
 <tr> <td>Retarget</td><td>Every Block</td></tr>
 <tr> <td>Lightning Network</td><td>Yes</td></tr>
 <tr> <td>Atomic Swap</td><td>Yes (Barterdex)</td></tr>
-<tr> <td>Premine</td><td>3%</td></tr>
+<tr> <td>Premine</td><td>200,000,000</td></tr>
 <tr> <td>Foundation</td><td>Yes</td></tr>
 </table>
 
